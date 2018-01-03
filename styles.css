@@ -14,11 +14,9 @@ body {
 
 main {
   display: flex;
-  width: 90%;
-  height: 90vh;
+  width: 70%;
+  height: 100vh;
   padding: 5%;
-  margin: 3%;
-  border: 5px solid #fff;
 }
 
 .grid-container {
@@ -32,67 +30,43 @@ main {
 
 .sushi-box {
   border: 2px solid black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .box-one {
   background-image: url('./assets/sushi-set-1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-two {
   background-image: url('./assets/sushi-set-2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-three {
   background-image: url('./assets/sushi-set-3.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-four {
   background-image: url('./assets/sushi-set-4.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-five {
   background-image: url('./assets/sushi-set-5.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-six {
   background-image: url('./assets/sushi-set-6.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-seven {
   background-image: url('./assets/sushi-set-7.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 .box-eight {
-  background-image: url('./assets/sushi-set-1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-image: url('./assets/sushi-set-8.png');
 }
 
 .box-nine {
-  background-image: url('./assets/sushi-set-1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-image: url('./assets/sushi-set-9.png');
 }
