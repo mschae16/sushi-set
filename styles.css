@@ -29,7 +29,6 @@ main {
 }
 
 .sushi-box {
-  border: 2px solid black;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
