@@ -35,23 +35,86 @@ main {
 }
 
 .box-one {
-  background-image: url('./assets/sushi-set-1.png');
+  background-image: url('./assets/sushi-set-9.png');
+}
+
+.box-one:hover {
+  transform: scale(1.5, 1.5);
 }
 
 .box-two {
   background-image: url('./assets/sushi-set-2.png');
 }
 
+.box-two:hover {
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
 .box-three {
   background-image: url('./assets/sushi-set-3.png');
+}
+
+.box-three:hover {
+  animation: shake 2s infinite;
+  animation-direction: alternate;
+  transform: skew(20deg);
+}
+
+@keyframes shake {
+  0% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewY(-20deg);
+  }
 }
 
 .box-four {
   background-image: url('./assets/sushi-set-4.png');
 }
 
+.box-four:hover {
+  animation: roll 3s infinite;
+  animation-direction: alternate;
+  transform: rotate(30deg);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .box-five {
   background-image: url('./assets/sushi-set-5.png');
+}
+
+.box-five:hover {
+  animation: shimmy 5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shimmy {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, 500px);
+  }
 }
 
 .box-six {
@@ -67,5 +130,7 @@ main {
 }
 
 .box-nine {
-  background-image: url('./assets/sushi-set-9.png');
+  background-image: url('./assets/sushi-set-1.png');
 }
+
+/* TRANSITIONS */
