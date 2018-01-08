@@ -171,7 +171,7 @@ main {
 }
 
 .box-eight:hover {
-  transform: rotateZ(100deg);
+  transform: rotateZ(180deg);
   animation: three 2s infinite;
   animation-direction: alternate;
 }
@@ -181,7 +181,7 @@ main {
     transform: rotateZ(0);
   }
   100% {
-    transform: rotateZ(100deg);
+    transform: rotateZ(180deg);
   }
 }
 
@@ -189,4 +189,17 @@ main {
   background-image: url('./assets/sushi-set-1.png');
 }
 
-/* TRANSITIONS */
+.box-nine:hover {
+  transform: rotateZ(-270deg);
+  animation: four 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes four {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(-270deg);
+  }
+}
