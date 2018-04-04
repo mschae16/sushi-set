@@ -39,7 +39,7 @@ main {
 }
 
 .box-one:hover {
-  animation: scale 3s infinite;
+  animation: scale 2s infinite;
   animation-direction: alternate;
   transform: scale(1.5, 1.5);
 }
@@ -58,7 +58,7 @@ main {
 }
 
 .box-two:hover {
-  animation: skew 3s infinite;
+  animation: skew 2s infinite;
   transform: skew(20deg);
   animation-direction: alternate;
 }
@@ -96,7 +96,7 @@ main {
 }
 
 .box-four:hover {
-  animation: roll 3s infinite;
+  animation: roll 2s infinite;
   animation-direction: alternate;
   transform: rotate(30deg);
 }
@@ -124,7 +124,7 @@ main {
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(200px, 500px);
+    transform: translate(-200px, -500px);
   }
 }
 
@@ -191,7 +191,7 @@ main {
 
 .box-nine:hover {
   transform: rotateZ(-270deg);
-  animation: four 3s infinite;
+  animation: four 2s infinite;
   animation-direction: alternate;
 }
 
